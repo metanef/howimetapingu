@@ -1,0 +1,85 @@
+/* Global styles */
+.background-yellow {background-color: #ffc107}
+.background-orange {background-color: #ff681f}
+.background-red {background-color: #dd0d1e}
+.background-purple {background-color: #731a6a}
+.background-light-blue {background-color: #3f88bc}
+.background-blue {background-color : #181ba0}
+.background-black {background-color : #000000}
+.icon-yellow {color: #ffc107}
+.icon-orange {color: #ff681f}
+.icon-red {color: #dd0d1e}
+.icon-purple {color: #731a6a}
+.icon-light-blue {color: #3f88bc}
+.icon-blue {color : #181ba0}
+.icon-black {color : #000000}
+
+/* Styles for large-sized screens */
+body {
+  padding: 40px;
+}
+.column.is-1 {
+  color: white;
+  margin: 20px 20px 20px 20px;
+  box-shadow: inset 0px 0px 10px rgba(255,255,255,0.5);
+}
+.column {
+  border-radius: 14px;
+}
+.column.is-full {
+  text-align: center;
+}
+.panel {
+  background-color: #f0f0f0;
+  display: none;
+  padding: 20px;
+}
+.panel.open {
+  display: block;
+}
+.mdi-arrow-right {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+img {
+  margin: 0 auto;
+}
+#start {
+  font-size: 25px;
+}
+
+
+/* Styles for small screens (e.g., smartphones) */
+@media (max-width: 767px) {
+  body {
+    padding: 20px;
+  }
+  .mdi-arrow-right {
+    display: none;
+  }
+  .container {
+    display: none;
+  }
+  .no-mobile {
+    display: none;
+  }
+  .title.is-1 {
+    font-size: 30px;
+  }
+  .subtitle.is-4 {
+    font-size: 16px;
+  }
+  .color-dices, #blackDices {
+    margin: -10px 40px 0 40px;
+  }
+  .column.is-2-desktop {
+    justify-content: center;
+    display: flex;
+  }
+}
